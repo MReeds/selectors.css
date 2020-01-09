@@ -1,0 +1,49 @@
+header {
+    border: 1px, goldenrod;
+}
+
+header ul li {
+    display: inline-block;
+    text-indent: 10px;
+}
+
+.disabled {
+    color: grey
+}
+
+a .disabled {
+    color: purple;
+}
+
+.active {
+    color: yellow;
+}
+
+.parent > div > div {
+    color: red;
+}
+
+.parent div h4 + div {
+    color:blue;
+}
+
+.parent div h4 {
+    background-color: red;
+}
+
+.parent div h4 ~ h4 {
+    background-color: blue;
+}
+
+section div div + h4 {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.promo {
+    color: gold;
+}
+
+span > input {
+    height: 25px solid black;
+}
